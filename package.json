@@ -1,0 +1,22 @@
+{
+  "name": "esmtest",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --transpile-only --debug main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/crypto-random-string": "^2.0.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "crypto-random-string": "^4.0.0"
+  }
+}
